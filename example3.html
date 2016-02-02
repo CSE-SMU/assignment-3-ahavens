@@ -1,9 +1,162 @@
+<!--Aurora Havens-->
+
 <html>
   <head>
-    <title>Customized Bootstrap Screenshot</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
+    <title>Standard Bootstrap Screenshot</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+
+   </head>
+
+	<nav class="navbar navbar-light bg-faded" style="margin-bottom:20">
+  		<a class="navbar-brand" href="#">CSE 3345</a>
+  		<ul class="nav navbar-nav">
+    		<li class="nav-item">
+      			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    		</li>
+    		<li class="nav-item active">
+      			<a class="nav-link" href="#">Assignments</a>
+    		</li>
+    		<li class="nav-item">
+      			<a class="nav-link" href="#">Lectures</a>
+    		</li>
+    		<li class="nav-item">
+      			<a class="nav-link" href="#">Contact</a>
+    		</li>
+
+    		<li class="nav-item pull-lg-right">
+    			<a class="nav-link" href="#">Log Out</a>
+    		</li>
+
+    		<li class="nav-item pull-lg-right">
+    			<a class="nav-link" href="#">Account</a>
+    		</li>
+		</ul>
+  
+  	</nav>
+
   <body>
-  	<button class="btn btn-primary">I'm a button</button>
-  </body>
+
+  	<div class = "row">
+		<!--Grade list; includes labels-->
+		<div class="col-lg-4" style="margin-bottom:0">
+			 <ul class="list-group">
+			 	<li class="list-group-item disabled">Your Assignments</li>
+  				<li class="list-group-item list-group-item-success">Assignment #1 <span class="label label-success">92</span></li>
+  				<li class="list-group-item list-group-item-success">Assignment #2 <span class="label label-success">100</span></li>
+  				<li class="list-group-item list-group-item-warning">Assignment #3 <span class="label label-warning">74</span></li>
+  				<li class="list-group-item list-group-item-danger">Assignment #4 <span class="label label-danger">23</span></li>
+  				<li class="list-group-item list-group-item-success">Assignment #5 <span class="label label-success">96</span></li>
+			</ul>		
+		</div>
+		
+		<!--Title-->
+    	<div class="col-lg-8" style"text-size: 20">
+    		<h1>Assignment 1</h1>
+    		<p> Bacon ipsum dolor amet ham short ribs capicola picanha, prosciutto cupim beef ribs salami. <p>
+    		<p></p>
+    		<p></p>
+    		<div class="alert alert-success fade in"  style="margin-top:0">
+				<strong>Well Done! </strong>You got a 92 on this assignment
+			</div>
+
+			<!--Table-->
+			<h2 style="margin-top:40"><strong>Grading Rubric</strong></h2>
+			<table class="table">
+    			<thead>
+      				<tr>
+        				<th># Description</th>
+        				<th>Available Points</th>
+        				<th>Your Points</th>
+      				</tr>
+    			</thead>
+    			<tbody>
+      				<tr>
+        				<td>1 Bacon ipsum dolor amet ham short ribs</td>
+        				<td>40</td>
+        				<td>40</td>
+      				</tr>
+      				
+      				<tr>
+        				<td>2 prosciutto cupim beef ribs salami</td>
+        				<td>40</td>
+        				<td>40</td>
+      				</tr>
+      
+      				<tr>
+        				<td>2 short loin corned beef ground round hamburger</td>
+        				<td>20</td>
+        				<td>12</td>
+      				</tr>
+    			</tbody>
+  			</table>
+
+		</div>
+	</div>
+
+	
+	<!--Comment and Card Block-->
+	<div class="row">
+		<div class="col-lg-4">
+		</div>
+
+		<div class ="col-lg-4" style="margin-top:20px">
+			<h3><strong>Comments</strong></h3>
+			<p>Bacon ipsum dolor amet salami ham hock short loin corned beef ground round hamburger. Ball tip meatball cow, corned beef pork loin salami andouille picanha. Pork belly ground round ham cupim meatloaf. Spare ribs biltong shank, t-bone short loin hamburger turkey pork loin chicken pork chop ground round meatball ham hock. </p>
+		</div>
+
+		<div class ="col-lg-4">
+			<div class="card" style="margin-top: 20px">
+  				<div class="card-block">
+    				<h3 class="card-title">Get Bonus Points</h3>
+    					<p class="card-text">Bacon ipsum dolor amet ham fatback beef ribs, picanha pork loin flank meatball pancetta cow jowl pork belly t-bone drumstick meatloaf. Capicola pork belly frankfurter doner, tri-tip pork loin landjaeger tenderloin alcatra sausage shank sirloin jerky porchetta.</p>
+    					<!--Button labeled "Start Bonus Exercise"-->
+  						<button type="button" class="btn btn-primary">Start Bonus Exercise</button>
+  				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Comment and Dispute-->
+	<div class="row">
+		<div class="col-lg-4">
+		</div>
+
+		<div class="col-lg-8">
+			<h3><strong>Dispute Grade</strong><h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-4">
+		</div>
+
+		<div class="col-lg-8">
+
+			<!--Horizontal Forms-->
+    		<form class="form-horizontal">
+				<div class="form-group">
+					<label for="inputEmail" class="control-label col-xs-2">Complaint</label>
+						<div class="col-xs-10">
+							<input type="email" class="form-control" id="inputEmail" placeholder="Your Complaint">
+						</div>
+				</div>
+
+        		<div class="form-group">
+					<label for="inputPassword" class="control-label col-xs-2">Reason</label>
+						<div class="col-xs-10" style="margin-top: 10px">
+							<input type="password" class="form-control" id="inputPassword" placeholder="Your Reason">
+						</div>
+				</div>
+
+
+        		<div class="form-group">
+					<div class="col-xs-offset-2 col-xs-10">
+						<button type="submit" class="btn btn-primary" style="margin-top: 20px">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
 </html>
