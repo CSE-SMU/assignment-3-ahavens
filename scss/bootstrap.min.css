@@ -1,6 +1,6 @@
 /* insert changes to variables here */
 /* refer to bootstrap-4.0.0-alpha/scss/variables to see what you can override */
-/*was unable to import font*/
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 /*!
  * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -266,7 +266,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed";
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
@@ -3831,7 +3831,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -3910,7 +3910,7 @@ button.close {
   display: block;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -4366,7 +4366,7 @@ a.text-danger:focus, a.text-danger:hover {
   background-color: #373a3c; }
 
 .bg-faded {
-  background-color: #f7f7f9; }
+  background-color: #cc00ff; }
 
 .bg-primary {
   color: #fff !important;
